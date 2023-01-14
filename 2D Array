@@ -1,0 +1,31 @@
+package twodarray;
+
+public class lotteryticket {
+
+	public static void main(String[] args) {
+		//ticket number
+		
+		int [] []  lotteryticket ={{20, 15, 48},
+								  {45, 12, 16},
+							      {87, 12, 4}
+			
+		};
+		
+		//System.out.println(lotteryticket[2][1]);
+		
+		System.out.println("________________________");
+		
+		//for (int i =0 ; i<=2; i++  ) {
+		
+		//System.out.println(lotteryticket[i][i]);
+		//}
+		
+		for (int i = 0; i <= 2; i++) {
+			for (int j=0; j<=2; j++) {
+			System.out.println(lotteryticket[j][i]);
+	
+			}
+		}	
+		System.out.println("________________________");
+	}
+}
